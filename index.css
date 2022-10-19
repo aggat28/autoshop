@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    font-family: 'Open Sans', sans-serif;
+    width: 1170px;
+    width: 1170px;
+    height: 476px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    padding-top: 30px;
+    margin: auto;
+    border-radius: 5px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19.07px;
+    color: #252A34;
+}
+.menu li {
+    margin-right: 20px;
+}
+.menu li a{
+    text-decoration: none;
+    color: inherit;
+    padding: 5px;
+    border-radius: 5px;
+}
+.menu li a:hover{
+    background: #e2e1e1;
+}
+.log_reg{
+    display: flex;
+    align-items: center;
+}
+.btn_login{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #FF2E63;
+    padding: 9px 23px;
+    border-radius: 5px;
+    margin-right: 2px;
+}
+.btn_register{
+    background: #FF2E63;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 9px 23px;
+    border-radius: 5px;
+}
+.btn_login:hover{
+    background: #e2e1e1;
+}
+.btn_register:hover{
+    background: #ad1b40;
+}
+.log_reg a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.banner{
+    position: relative;
+}
+
+.slogan{
+    position: absolute;
+    left: 0px;
+    top: 191px;
+}
+.slogan_text{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Rajdhani;
+    color: #343434;
+}
+.slogan_text span{
+    color: #FF2E63;
+}
+.slogan_btn{
+    margin-top: 50px;
+    margin-left: 0;
+    width: 120px;
+    padding: 13px 22px;
+    background: #346CD9;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.79px;
+}
+.slogan_btn:hover{
+    cursor: pointer;
+    background-color: rgb(6, 68, 161);
+}
+.slogan_btn:active{
+    box-shadow: 0 8px 5px -2px #333;
+}
+.ellips{
+    position: absolute;
+    top: 96px;
+    right: 95px;
+}
+.car{
+    position: absolute;
+    top: 170px;
+    right: 0px;
+    width: 755px;
+    height: 302px;
+}
+.latest_competitions{
+    margin-top: 106px;
+    width: 1170px;
+   
+}
+.competitions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+h1{
+    font-family: Rajdhani;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45.94px;
+    color: #343434;
+}
+.auto_card{
+    width: 270px;
+    height: 283px;
+    position: relative;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.model_car{
+    font-family: Rajdhani;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25.52px;
+    color: #252A34;
+}
+.price_car{
+    display: flex;
+    align-items: center;
+    
+}
+.newPrice_car{
+    margin: 0;
+    margin-right: 10px;
+    font-family: Rajdhani;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38.28px;
+    color: #FF2E63;
+}
+.oldPrice_car{
+    margin: 0;
+    font-family: Rajdhani;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25.52px;
+    color: #999;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: line-through;
+}
+.card_info{
+    padding: 20px;
+}
+.card_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    
+}
+.tickets_remainig{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+    color: #343434;
+    margin: 0;
+}
+.car_btn{
+    position: absolute;
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    right: 0;
+    bottom: 0;
+
+}
+.vector_1{
+    position: absolute;
+    z-index: 1000;
+    bottom: 15px;
+    right: 10px;
+}
+.how_it_works{
+    margin: 100px auto 100px auto;
+    width: 1170px;
+    
+}
+.stage_of-work{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stage{
+    width: 250px;
+    height: 181px;
+    margin-top: 60px;
+}
+.vector_2{
+    width: 32px;
+    height: 20px;
+}
+.stage_text{
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #343434;
+}
+.winner_content{
+    max-width: 1280px;
+    margin: auto;
+    width: 100%;
+    display: flex;  
+   
+}
+.winner-text{
+    width: 50%;
+    background: rgba(2, 14, 37);
+    max-height: 640px;
+}
+
+.winner-foto{
+    width: 50%;
+}
+.latest_winners{
+    margin: 100px auto 100px auto;
+    width: 1170px;
+}
+.winners{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer{
+    max-width: 100vw;
+    background-color: #346CD9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    margin: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    
+}
+.footer_menu{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19.07px;
+}
+.footer_menu li {
+    margin-right: 20px;
+}
+.footer_menu li a{
+    text-decoration: none;
+    color: inherit;
+    padding: 5px;
+    border-radius: 5px;
+}
+.footer_menu li a:hover{
+    color: #c5bebe;
+}
+
+
+
+   
